@@ -1,0 +1,45 @@
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../public/images/Rectangle\ 467.png");
+  height: 36.688rem;
+}
+
+.header-text {
+  font-family: "syne", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.event-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 31.25rem;
+  margin: -70px;
+  border: rgba(0, 0, 0, 0.04);
+  border-radius: 1rem;
+  padding: 64px;
+}
+@media screen and (min-width: 600px) {
+  .search-form {
+    width: 50.735rem;
+    flex-direction: row;
+    height: 184px;
+  }
+
+  .header-text {
+    font-weight: 700;
+    font-size: 56px;
+  }
+}

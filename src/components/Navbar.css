@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 16px 128px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  height: 88px;
+}
+.cta-container {
+  width: 11.438rem;
+}
+@media screen and (min-width: 600px) {
+}
