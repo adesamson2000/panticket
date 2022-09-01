@@ -1,6 +1,6 @@
 import React from "react";
-
-function input({ label, placeholder, type, name, onChange, value }) {
+import "./Input.css";
+function Input({ label, placeholder, type, name, onChange, value }) {
   return (
     <div className="input-container">
       <label>{label} </label>
@@ -15,4 +15,4 @@ function input({ label, placeholder, type, name, onChange, value }) {
   );
 }
 
-export default input;
+export default Input;

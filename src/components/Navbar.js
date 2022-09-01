@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import "./Navbar.css";
 function Navbar() {
   return (
@@ -45,7 +46,9 @@ function Navbar() {
           />
         </svg>
       </div>
-      <button className="cta-container">Confirm Password</button>
+      <div className="cta-container">
+        <Button variation="primary" title={"Confirm Ticket"} />
+      </div>
     </nav>
   );
 }

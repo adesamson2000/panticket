@@ -4,6 +4,9 @@
 }
 
 .input-container label {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
 }
 .input-container input {
   background: #f5f6f6;
