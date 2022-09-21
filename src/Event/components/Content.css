@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.ticket-container {
+  width: 25.25rem;
+}
+
+.ticket-title {
+  font-family: "syne";
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #94248c;
+  margin-bottom: 16px;
+}
+.ticket-category {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (min-width: 600px) {
+  /* .main-container {
+    padding: 0 15.813rem;
+  } */
+
+  .event-content-container,
+  .ticket-container {
+    width: 70%;
+  }
+
+  .ticket-title {
+    font-size: 2rem;
+  }
+}

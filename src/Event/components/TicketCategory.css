@@ -1,0 +1,81 @@
+.ticket-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  height: 96px;
+  padding: 1.5rem;
+}
+.ticket-type {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ticket-color {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+}
+.regular-color {
+  background-color: #fe9365;
+}
+.vip-color {
+  background-color: #b27702;
+}
+.premium-color {
+  background-color: #03aade;
+}
+.royalty-color {
+  background-color: #5b23fc;
+}
+.ticket-type-title,
+.ticket-price,
+.quantity {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333333;
+}
+.ticket-type-title {
+  width: 108px;
+}
+.ticket-price {
+  width: 387.5px;
+}
+.quantity {
+  width: 65px;
+}
+
+.button {
+  width: 131px;
+  padding-left: 2rem;
+}
+
+.quantity-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.quantity-counter {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #f1f1f1;
+  width: 5.6875rem;
+  height: 3rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 0.5rem;
+}
+.ticket-input {
+  background-color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .ticket-wrapper {
+  }
+}

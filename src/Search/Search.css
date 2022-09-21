@@ -1,0 +1,104 @@
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../public/images/Rectangle\ 467.png");
+  height: 36.688rem;
+}
+
+.header-text {
+  font-family: "syne", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.event-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 25.25rem;
+  margin: -70px;
+  border: rgba(0, 0, 0, 0.04);
+  border-radius: 1rem;
+  padding: 64px;
+}
+
+.search-input,
+.category-input,
+.form-btn {
+  width: 100%;
+}
+
+.event-container {
+  align-items: flex-start;
+  padding: 5rem 7.938rem;
+  width: 100%;
+  padding: 0 3rem;
+}
+.section-title {
+  font-family: "syne", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 16px;
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 600px) {
+  .search-form {
+    width: 50.735rem;
+    flex-direction: row;
+    height: 184px;
+  }
+
+  .section-title {
+    font-family: "syne", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+
+  .header-text {
+    font-weight: 700;
+    font-size: 56px;
+  }
+  .search-input {
+    /* width:1222px ; */
+    width: 30.438rem;
+  }
+  .category-input {
+    width: 20.5rem;
+  }
+  .form-btn {
+    width: 8.625rem;
+  }
+  .event-container {
+    align-items: flex-start;
+    padding: 5rem 7.938rem;
+    width: 100%;
+  }
+  .events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 24px; */
+    width: 100%;
+  }
+
+  .featured-section {
+    display: flex;
+    gap: 32px;
+  }
+}

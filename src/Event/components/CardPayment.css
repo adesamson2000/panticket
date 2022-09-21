@@ -1,0 +1,123 @@
+.booking-container {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  width: 807px;
+  gap: 32px;
+}
+.container-title {
+  width: 687px;
+  height: 38px;
+  font-family: "Syne";
+  font-weight: 800;
+  font-size: 32px;
+  color: #94248c;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.close-icon {
+  display: flex;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+  background: #eff0fa;
+  border-radius: 8px;
+}
+
+.ticket-form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-type {
+  font-family: "Syne";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+  font-weight: 700;
+  font-size: 24px;
+  height: 24px;
+  width: 199px;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.bank {
+  color: rgba(51, 51, 51, 0.2);
+}
+.input {
+  display: flex;
+  gap: 16px;
+}
+.inputs {
+  width: 180.5px;
+}
+.form-btn {
+  width: 371px;
+  height: 56px;
+  margin-top: 24px;
+}
+.ticket-summary {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a1a38;
+  gap: 32px;
+}
+
+.ticket-type-group {
+  margin-bottom: 64px;
+}
+
+.type-group,
+.price-group,
+.total-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.regular {
+  opacity: 0.5;
+}
+
+/* Details transfer */
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.details-title {
+  font-size: "syne";
+  color: #94248c;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-list span {
+  align-self: flex-start;
+}

@@ -1,0 +1,93 @@
+.searchresult-container {
+  height: 224px;
+  border-radius: 1rem;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 224px;
+}
+
+.searchresult-container img {
+  width: 379px;
+  height: 224px;
+  border-radius: 1rem;
+}
+
+.search-details {
+  font-family: "Inter";
+  height: 9.938rem;
+  padding: 1.5rem 2rem;
+  gap: 16px;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title,
+.price {
+  padding-top: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.venueaddress {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.amountofattendees,
+.organizer {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+@media screen and (min-width: 600px) {
+  .searchresult-container {
+    display: flex;
+    height: 224px;
+    border-radius: 1rem;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 24px;
+  }
+
+  .searchresult-container img {
+    width: 379px;
+    height: 224px;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .search-details {
+    font-family: "Inter";
+    height: 9.938rem;
+    padding: 1.5rem 2rem;
+    gap: 16px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    width: 500px;
+  }
+  .organizer {
+    padding-right: 230px;
+  }
+}
