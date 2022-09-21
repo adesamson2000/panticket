@@ -5,11 +5,11 @@ import Input from "./../../components/Input";
 import Button from "./../../components/Button";
 
 function ConfirmModal({ setModal }) {
-  const [swapModal, setSwapModal] = useState(true);
+
   function handleSubmit(event) {
     event.preventDefault();
-    setSwapModal((prevState) => !prevState);
   }
+  
   return (
     <>
       <div className="confirm-ticket-container">
