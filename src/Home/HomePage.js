@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
-import Input from "../components/Input";
+// import Input from "../components/Input";
 import "./HomePage.css";
 import Card from "../components/Card";
 import Bigcard from "../components/Bigcard";
 import Footer from "../components/Footer";
+import Input from "../components/Input";
 function HomePage() {
   const [allEvents, setAllEvents] = useState([]);
   useEffect(() => {
