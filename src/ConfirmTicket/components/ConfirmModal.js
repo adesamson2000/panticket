@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import "./confirm-modal.css";
 import Input from "./../../components/Input";
 import Button from "./../../components/Button";
 
 function ConfirmModal({ setModal }) {
-
   function handleSubmit(event) {
     event.preventDefault();
   }
-  
+
   return (
     <>
       <div className="confirm-ticket-container">

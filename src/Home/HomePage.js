@@ -58,7 +58,7 @@ function HomePage() {
                 />
               );
             })}
-            <Card
+            {/* <Card
               name="The Concert"
               image={"/images/image-1.png"}
               location="Lagos"
@@ -120,7 +120,7 @@ function HomePage() {
               location="Lagos"
               price="N2000"
               date="10/10/2022"
-            />
+            /> */}
           </div>
         </div>
         <div className="event-container">
